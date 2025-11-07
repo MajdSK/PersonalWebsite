@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="toDoList.css">
+    <script src="toDoList.js"></script>
+</head>
+<body>
+    <div id="inputTasks">
+        <fieldset>
+        <legend>Set a task to do:</legend>
+            <textarea id="taskDes"></textarea>
+            <input type="date" name="taskDeadLine" id="datePicker">
+        </fieldset>
+        <button id="submitB" onclick="upload()">upload</button>
+    </div>
+    <div id="tasks">
+    </div>
+</body>
+</html>
